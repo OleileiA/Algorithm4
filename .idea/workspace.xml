@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/栈/FixedCapacityStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/栈/FixedCapacityStackOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/栈/ResizingArrayStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/栈/TTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/算法4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/算法4.iml" afterDir="false" />
-    </list>
+    <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,36 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/TTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#623#631#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResizingArrayStack.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/ResizingArrayStack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-              <folding>
-                <element signature="e#1313#1314#0" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1379#1380#0" expanded="true" />
-                <element signature="e#1416#1417#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -276,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542901414724</updated>
       <workItem from="1542901419182" duration="906000" />
-      <workItem from="1543070651743" duration="9756000" />
+      <workItem from="1543070651743" duration="10967000" />
     </task>
     <servers />
   </component>
@@ -307,11 +268,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10662000" />
+    <option name="totallyTimeSpent" value="11873000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -323,8 +283,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.68048126" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.6791444" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -425,17 +385,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/TTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#623#631#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/ResizingArrayStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
@@ -445,6 +394,17 @@
             <element signature="e#1349#1350#0" expanded="true" />
             <element signature="e#1379#1380#0" expanded="true" />
             <element signature="e#1416#1417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/TTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#623#631#0" expanded="true" />
           </folding>
         </state>
       </provider>
