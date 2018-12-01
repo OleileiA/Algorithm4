@@ -39,6 +39,12 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
         a[N++] = item;
     }
 
+    // 返回栈顶的元素而不删除它
+    public Item peek() {
+        if (N >= 1) return a[N - 1];
+        else return null;
+    }
+
     // 因为每次都会判断isEmpty，所不需要在这里判断
     public Item pop() {
         Item item = a[--N];
