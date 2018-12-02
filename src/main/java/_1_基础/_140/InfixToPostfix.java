@@ -1,5 +1,6 @@
 package _1_基础._140;
 import _1_基础.栈.ResizingArrayStack;
+import edu.princeton.cs.algs4.In;
 
 /*
 *   要求把中序表达式转换为后序表达式。
@@ -25,11 +26,6 @@ import _1_基础.栈.ResizingArrayStack;
 
 */
 public class InfixToPostfix {
-
-    static boolean figureOperator(String a, String b) {
-        return (a.equals("*") || a.equals("/")) && (b.equals("+") || b.equals("-"));
-    }
-
     public static void main(String[] args) {
         ResizingArrayStack<String> resizingArrayStack = new ResizingArrayStack<String>(10);
         String s = "2*3/(2-1)+3*(4-1)";
@@ -60,5 +56,37 @@ public class InfixToPostfix {
         // 说明逆波兰式的不同算法的运算结果书写顺序不唯一，但是可以验证是否正确。
         //TODO: 可以理解为先计算表达式优先级高的部分对结果是没有影响的，所需顺序可以不同
         //TODO: 但是如果要求计算出所有正确的逆波兰式又是一个新的问题？
+
+        // 第二题
+        InfixToPostfix infixToPostfix = new InfixToPostfix();
+        infixToPostfix.evalueatePostfix(result.toString());
+    }
+
+/*
+*   第二题：编写一段程序EvaluatePostfix
+*   用于计算后序表达式的值
+*/
+    public int evalueatePostfix(String postfix) {
+        ResizingArrayStack<String> resizingArrayStack = new ResizingArrayStack<String>(10);
+        for (int i = 0; i < postfix.length(); i++) {
+            String s = String.valueOf(postfix.charAt(i));
+            if (s.equals("+")) {
+                resizingArrayStack.push(String.valueOf(Integer.valueOf(resizingArrayStack.pop()) + Integer.valueOf(resizingArrayStack.pop())));
+            } else if (s.equals("*")) {
+                resizingArrayStack.push(String.valueOf(Integer.valueOf(resizingArrayStack.pop()) * Integer.valueOf(resizingArrayStack.pop())));
+            } else if (s.equals("-")) {
+                String a = resizingArrayStack.pop();
+                String b = resizingArrayStack.pop();
+                resizingArrayStack.push(String.valueOf(Integer.valueOf(b) - Integer.valueOf(a)));
+            } else if (s.equals("/")) {
+                String a = resizingArrayStack.pop();
+                String b = resizingArrayStack.pop();
+                resizingArrayStack.push(String.valueOf(Integer.valueOf(b) / Integer.valueOf(a)));
+            } else {
+                resizingArrayStack.push(s);
+            }
+        }
+        System.out.println(Integer.valueOf(resizingArrayStack.pop()));
+        return 0;
     }
 }
