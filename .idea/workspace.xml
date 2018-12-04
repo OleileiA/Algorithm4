@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_12/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_12/Try.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/ResizingArrayQueueOfStrings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/TryresizingArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_19/DeleteLastNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/asd.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/_140/InfixToPostfix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_140/InfixToPostfix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/_140/InfixToPostfix.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/_140/InfixToPostfix.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,23 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ResizingArrayQueueOfStrings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/ResizingArrayQueueOfStrings.java">
+      <file leaf-file-name="asd.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/asd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TryresizingArrayQueue.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/TryresizingArrayQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-              <folding>
-                <element signature="e#227#235#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="360">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -77,6 +62,9 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_12/Try.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/ResizingArrayQueueOfStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/TryresizingArrayQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_19/DeleteLastNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/asd.html" />
       </list>
     </option>
   </component>
@@ -99,6 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -139,23 +128,13 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_3_14" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="算法4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="算法4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
-              <item name="队列" type="462c0819:PsiDirectoryNode" />
+              <item name="_1_3_29" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -179,7 +158,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TryresizingArrayQueue.t">
+  <component name="RunManager" selected="Application.CircleQueue">
+    <configuration name="CircleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_29.CircleQueue" />
+      <module name="算法4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_1_基础._1_3_29.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeleteLastNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_19.DeleteLastNode" />
+      <module name="算法4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_1_基础._1_3_19.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_基础._140.InfixToPostfix" />
       <module name="算法4" />
@@ -189,39 +188,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="completeTheString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_基础._139.completeTheString" />
-      <module name="算法4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1_基础._139.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="InfixToPostfix.transform" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="算法4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1_基础._140.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="_1_基础._140" />
-      <option name="MAIN_CLASS_NAME" value="_1_基础._140.InfixToPostfix" />
-      <option name="METHOD_NAME" value="transform" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="Try.tryStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="算法4" />
@@ -270,19 +236,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="Application.completeTheString" />
-      <item itemvalue="JUnit.InfixToPostfix.transform" />
       <item itemvalue="Application.InfixToPostfix" />
       <item itemvalue="JUnit.Try.tryStack" />
       <item itemvalue="JUnit.TryresizingArrayQueue.t" />
+      <item itemvalue="Application.DeleteLastNode" />
+      <item itemvalue="Application.CircleQueue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircleQueue" />
+        <item itemvalue="Application.DeleteLastNode" />
         <item itemvalue="JUnit.TryresizingArrayQueue.t" />
         <item itemvalue="JUnit.Try.tryStack" />
         <item itemvalue="Application.InfixToPostfix" />
-        <item itemvalue="JUnit.InfixToPostfix.transform" />
-        <item itemvalue="Application.completeTheString" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +266,8 @@
       <workItem from="1543070651743" duration="11161000" />
       <workItem from="1543237377310" duration="9279000" />
       <workItem from="1543329208672" duration="5128000" />
-      <workItem from="1543663591023" duration="19179000" />
+      <workItem from="1543663591023" duration="19373000" />
+      <workItem from="1543837805430" duration="8924000" />
     </task>
     <servers />
   </component>
@@ -337,7 +304,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45653000" />
+    <option name="totallyTimeSpent" value="54771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -357,7 +324,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2647059" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -497,21 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_135/PrintWhat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
           <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#250#259#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -529,10 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="345" column="25" selection-start-line="345" selection-start-column="25" selection-end-line="345" selection-end-column="25" />
-          <folding>
-            <element signature="e#10637#10638#0" expanded="true" />
-            <element signature="e#10678#10679#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -560,26 +512,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="method#enqueue#0;class#LinkedQueue#0" />
-            <element signature="method#dequeue#0;class#LinkedQueue#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_12/Try.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#146#154#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -614,6 +550,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/TryresizingArrayQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding>
+            <element signature="e#227#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/ResizingArrayQueueOfStrings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="679">
@@ -621,13 +567,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_14/TryresizingArrayQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="10" column="49" lean-forward="true" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
+        <state relative-caret-position="197">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="41" selection-end-column="5" />
           <folding>
-            <element signature="e#227#235#0" expanded="true" />
+            <element signature="class#Node#0;class#LinkedStack#0" />
+            <element signature="method#push#0;class#LinkedStack#0" />
+            <element signature="method#pop#0;class#LinkedStack#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_19/DeleteLastNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
+          <folding>
+            <element signature="method#push#0;class#DeleteLastNode#0" />
+            <element signature="method#deleteTheLast#0;class#DeleteLastNode#0" />
+            <element signature="method#delete#0;class#DeleteLastNode#0" />
+            <element signature="method#find#0;class#DeleteLastNode#0" />
+            <element signature="method#removeAfter#0;class#DeleteLastNode#0" />
+            <element signature="method#main#0;class#DeleteLastNode#0" />
+            <element signature="e#2066#2074#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="method#dequeue#0;class#LinkedQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#dequeue#0;class#CircleQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/asd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
