@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_19/DeleteLastNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/asd.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_30/ReverseLinked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/_1_3_29/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/_1_3_29/CircleQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,11 +22,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="asd.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/asd.html">
+      <file leaf-file-name="DoubleNode.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state relative-caret-position="208">
+              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+              <folding>
+                <element signature="class#Node#0;class#DoubleNode#0" />
+                <element signature="e#435#436#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="method#insertBefore#0;class#DoubleNode#0" />
+                <element signature="method#insertAfter#0;class#DoubleNode#0" />
+                <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
+                <element signature="e#2974#2983#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="96">
+                <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+              <folding>
+                <element signature="method#enqueue#0;class#LinkedQueue#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,7 +86,6 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/FixedCapacityStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/TTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/背包/LinkedBag.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_131/FixedCapacityStackOfStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java" />
@@ -65,6 +101,10 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_19/DeleteLastNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/asd.html" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_30/ReverseLinked.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" />
       </list>
     </option>
   </component>
@@ -88,6 +128,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -128,14 +170,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
-              <item name="_1_3_29" type="462c0819:PsiDirectoryNode" />
+              <item name="队列" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CircleQueue">
+  <component name="RunManager" selected="Application.DoubleNode">
     <configuration name="CircleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_29.CircleQueue" />
       <module name="算法4" />
@@ -179,38 +219,25 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="InfixToPostfix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_基础._140.InfixToPostfix" />
+    <configuration name="DoubleNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_31.DoubleNode" />
       <module name="算法4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_基础._140.*" />
+          <option name="PATTERN" value="_1_基础._1_3_31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Try.tryStack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LinkedQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础.队列.LinkedQueue" />
       <module name="算法4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_基础._1_3_12.*" />
+          <option name="PATTERN" value="_1_基础.队列.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="_1_基础._1_3_12" />
-      <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_12.Try" />
-      <option name="METHOD_NAME" value="tryStack" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="TryresizingArrayQueue.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="算法4" />
@@ -236,19 +263,19 @@
       <patterns />
     </configuration>
     <list>
-      <item itemvalue="Application.InfixToPostfix" />
-      <item itemvalue="JUnit.Try.tryStack" />
       <item itemvalue="JUnit.TryresizingArrayQueue.t" />
       <item itemvalue="Application.DeleteLastNode" />
       <item itemvalue="Application.CircleQueue" />
+      <item itemvalue="Application.LinkedQueue" />
+      <item itemvalue="Application.DoubleNode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubleNode" />
+        <item itemvalue="Application.LinkedQueue" />
         <item itemvalue="Application.CircleQueue" />
         <item itemvalue="Application.DeleteLastNode" />
         <item itemvalue="JUnit.TryresizingArrayQueue.t" />
-        <item itemvalue="JUnit.Try.tryStack" />
-        <item itemvalue="Application.InfixToPostfix" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +294,8 @@
       <workItem from="1543237377310" duration="9279000" />
       <workItem from="1543329208672" duration="5128000" />
       <workItem from="1543663591023" duration="19373000" />
-      <workItem from="1543837805430" duration="8924000" />
+      <workItem from="1543837805430" duration="9083000" />
+      <workItem from="1543938361544" duration="6291000" />
     </task>
     <servers />
   </component>
@@ -304,7 +332,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54771000" />
+    <option name="totallyTimeSpent" value="61221000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -320,11 +348,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2647059" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -348,7 +376,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="6" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -356,9 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1032">
           <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -404,10 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#623#631#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,14 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
           <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,9 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -455,12 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
-          <folding>
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#721#722#0" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -475,9 +479,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="565">
           <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,10 +493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
-          <folding>
-            <element signature="e#94598#94599#0" expanded="true" />
-            <element signature="e#94636#94637#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -503,12 +500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#InfixToPostfix#0" />
-            <element signature="method#evalueatePostfix#0;class#InfixToPostfix#0" />
-            <element signature="e#2119#2127#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,10 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#492#493#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,22 +582,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-          <folding>
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#377#378#0" expanded="true" />
-            <element signature="method#dequeue#0;class#LinkedQueue#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/asd.html" />
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="360">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#dequeue#0;class#CircleQueue#0" />
@@ -618,10 +594,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/asd.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_30/ReverseLinked.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state relative-caret-position="120">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding>
+            <element signature="method#enqueue#0;class#LinkedQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding>
+            <element signature="class#Node#0;class#DoubleNode#0" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="method#insertBefore#0;class#DoubleNode#0" />
+            <element signature="method#insertAfter#0;class#DoubleNode#0" />
+            <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
+            <element signature="e#2974#2983#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
