@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,28 +15,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DoubleNode.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoubleNode.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
+            <state relative-caret-position="-415">
+              <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
               <folding>
                 <element signature="class#Node#0;class#DoubleNode#0" />
-                <element signature="method#insertBefore#0;class#DoubleNode#0" />
-                <element signature="method#insertAfter#0;class#DoubleNode#0" />
-                <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
+                <element signature="method#pop#0;class#DoubleNode#0" />
+                <element signature="method#main#0;class#DoubleNode#0" />
                 <element signature="e#3086#3095#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="96">
-                <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="264">
+                <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,6 +62,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Syste</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -95,8 +98,8 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/asd.html" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_30/ReverseLinked.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_1_基础/README.md" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/README.md" />
       </list>
     </option>
   </component>
@@ -288,7 +291,7 @@
       <workItem from="1543663591023" duration="19373000" />
       <workItem from="1543837805430" duration="9083000" />
       <workItem from="1543938361544" duration="6370000" />
-      <workItem from="1544015778616" duration="152000" />
+      <workItem from="1544015778616" duration="2323000" />
     </task>
     <servers />
   </component>
@@ -325,7 +328,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61452000" />
+    <option name="totallyTimeSpent" value="63623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -341,11 +344,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2647059" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -379,9 +382,8 @@
           <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
           <folding>
             <element signature="class#Node#0;class#DoubleNode#0" />
-            <element signature="method#insertBefore#0;class#DoubleNode#0" />
-            <element signature="method#insertAfter#0;class#DoubleNode#0" />
-            <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
+            <element signature="method#pop#0;class#DoubleNode#0" />
+            <element signature="method#main#0;class#DoubleNode#0" />
             <element signature="e#3086#3095#0" expanded="true" />
           </folding>
         </state>
@@ -599,16 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="96">
-            <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
@@ -621,15 +613,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
+        <state relative-caret-position="-415">
+          <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
           <folding>
             <element signature="class#Node#0;class#DoubleNode#0" />
-            <element signature="method#insertBefore#0;class#DoubleNode#0" />
-            <element signature="method#insertAfter#0;class#DoubleNode#0" />
-            <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
+            <element signature="method#pop#0;class#DoubleNode#0" />
+            <element signature="method#main#0;class#DoubleNode#0" />
             <element signature="e#3086#3095#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="264">
+            <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
