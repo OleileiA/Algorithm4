@@ -38,10 +38,8 @@ public class DoubleNode<Item> {
 
     // 表头插入新元素
     public void unshift(Item item) {
-
         Node node = new Node();
         node.item = item;
-
         if (N == 0) {
             first = node;
             last = node;
@@ -79,11 +77,9 @@ public class DoubleNode<Item> {
     public Item shift() {
         Item item = first.item;
         first = first.next;
-        first.pre = null;
+        if (first != null) first.pre = null;
         N--;
-        if (N == 0) {
-            last = first;
-        }
+        if (N == 0) last = first;
         return item;
     }
 
@@ -91,16 +87,9 @@ public class DoubleNode<Item> {
     public Item pop() {
         Item item = last.item;
         last = last.pre;
-        // TODO: 好蠢
-        if (N != 1) {
-            last.next = null;
-        }
-
+        if (last != null) last.next = null;
         N--;
-        System.out.println(N);
-        if (N == 0) {
-            first = last;
-        }
+        if (N == 0) first = last;
         return item;
     }
 
@@ -157,8 +146,8 @@ public class DoubleNode<Item> {
         doubleNode.push(2);
         doubleNode.push(3);
         doubleNode.unshift(0);
+        doubleNode.unshift(-1);
 
-        //  TODO: 太晚了，明天再调试
         while (!doubleNode.isEmpty()) {
             System.out.println(doubleNode.pop());
         }

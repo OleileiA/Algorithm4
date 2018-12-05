@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_30/ReverseLinked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/_1_3_29/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/_1_3_29/CircleQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/队列/LinkedQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,20 +15,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DoubleNode.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+            <state relative-caret-position="217">
+              <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
               <folding>
                 <element signature="class#Node#0;class#DoubleNode#0" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
                 <element signature="method#insertBefore#0;class#DoubleNode#0" />
                 <element signature="method#insertAfter#0;class#DoubleNode#0" />
                 <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
-                <element signature="e#2974#2983#0" expanded="true" />
+                <element signature="e#3086#3095#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +47,8 @@
       <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+            <state relative-caret-position="864">
+              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
               <folding>
                 <element signature="method#enqueue#0;class#LinkedQueue#0" />
               </folding>
@@ -129,7 +121,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,6 +167,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,7 +287,8 @@
       <workItem from="1543329208672" duration="5128000" />
       <workItem from="1543663591023" duration="19373000" />
       <workItem from="1543837805430" duration="9083000" />
-      <workItem from="1543938361544" duration="6291000" />
+      <workItem from="1543938361544" duration="6370000" />
+      <workItem from="1544015778616" duration="152000" />
     </task>
     <servers />
   </component>
@@ -332,7 +325,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61221000" />
+    <option name="totallyTimeSpent" value="61452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -380,6 +373,40 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2088">
+          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+          <folding>
+            <element signature="class#Node#0;class#DoubleNode#0" />
+            <element signature="method#insertBefore#0;class#DoubleNode#0" />
+            <element signature="method#insertAfter#0;class#DoubleNode#0" />
+            <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
+            <element signature="e#3086#3095#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="96">
+            <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+          <folding>
+            <element signature="method#enqueue#0;class#LinkedQueue#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_132/Parenthese.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1032">
@@ -514,19 +541,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#815#823#0" expanded="true" />
-            <element signature="e#872#880#0" expanded="true" />
-            <element signature="e#809#810#0" expanded="true" />
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="method#remove#0;class#StackIterator#0;class#Stack#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -541,9 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
           <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding>
-            <element signature="e#227#235#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,15 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
           <caret line="110" column="39" selection-start-line="110" selection-start-column="39" selection-end-line="110" selection-end-column="39" />
-          <folding>
-            <element signature="method#push#0;class#DeleteLastNode#0" />
-            <element signature="method#deleteTheLast#0;class#DeleteLastNode#0" />
-            <element signature="method#delete#0;class#DeleteLastNode#0" />
-            <element signature="method#find#0;class#DeleteLastNode#0" />
-            <element signature="method#removeAfter#0;class#DeleteLastNode#0" />
-            <element signature="method#main#0;class#DeleteLastNode#0" />
-            <element signature="e#2066#2074#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -587,10 +589,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#dequeue#0;class#CircleQueue#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -613,8 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        <state relative-caret-position="864">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
           <folding>
             <element signature="method#enqueue#0;class#LinkedQueue#0" />
           </folding>
@@ -623,16 +621,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="93" column="19" selection-start-line="93" selection-start-column="19" selection-end-line="93" selection-end-column="19" />
+        <state relative-caret-position="217">
+          <caret line="150" column="30" selection-start-line="150" selection-start-column="30" selection-end-line="150" selection-end-column="30" />
           <folding>
             <element signature="class#Node#0;class#DoubleNode#0" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
             <element signature="method#insertBefore#0;class#DoubleNode#0" />
             <element signature="method#insertAfter#0;class#DoubleNode#0" />
             <element signature="method#deleteTheNode#0;class#DoubleNode#0" />
-            <element signature="e#2974#2983#0" expanded="true" />
+            <element signature="e#3086#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
