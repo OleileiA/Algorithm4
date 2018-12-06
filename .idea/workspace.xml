@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/实验题/Steque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/_1_基础/_1_3_31/DoubleNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/_1_基础/_1_3_31/DoubleNode.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,40 +17,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DoubleNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
+      <file leaf-file-name="Steque.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/Steque.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-415">
-              <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+            <state relative-caret-position="197">
+              <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
               <folding>
-                <element signature="class#Node#0;class#DoubleNode#0" />
-                <element signature="method#pop#0;class#DoubleNode#0" />
-                <element signature="method#main#0;class#DoubleNode#0" />
-                <element signature="e#3086#3095#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="264">
-                <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedQueue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="864">
-              <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-              <folding>
-                <element signature="method#enqueue#0;class#LinkedQueue#0" />
+                <element signature="e#296#297#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+                <element signature="e#384#385#0" expanded="true" />
+                <element signature="e#1000#1008#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,7 +62,6 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/TTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/背包/LinkedBag.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_131/FixedCapacityStackOfStrings.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_132/Parenthese.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_135/PrintWhat.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_139/completeTheString.java" />
@@ -97,9 +75,11 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_29/CircleQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/asd.html" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_30/ReverseLinked.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/实验题/Steque.java" />
       </list>
     </option>
   </component>
@@ -123,6 +103,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -164,13 +145,30 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
+              <item name="实验题" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
+              <item name="栈" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="算法4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="算法4" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
               <item name="队列" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,7 +191,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DoubleNode">
+  <component name="RunManager" selected="Application.Steque">
     <configuration name="CircleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_29.CircleQueue" />
       <module name="算法4" />
@@ -234,43 +232,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="TryresizingArrayQueue.t" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Steque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础.实验题.Steque" />
       <module name="算法4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="_1_基础._1_3_14.*" />
+          <option name="PATTERN" value="_1_基础.实验题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="_1_基础._1_3_14" />
-      <option name="MAIN_CLASS_NAME" value="_1_基础._1_3_14.TryresizingArrayQueue" />
-      <option name="METHOD_NAME" value="t" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TryresizingArrayQueue.t" />
       <item itemvalue="Application.DeleteLastNode" />
       <item itemvalue="Application.CircleQueue" />
       <item itemvalue="Application.LinkedQueue" />
       <item itemvalue="Application.DoubleNode" />
+      <item itemvalue="Application.Steque" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Steque" />
         <item itemvalue="Application.DoubleNode" />
         <item itemvalue="Application.LinkedQueue" />
         <item itemvalue="Application.CircleQueue" />
         <item itemvalue="Application.DeleteLastNode" />
-        <item itemvalue="JUnit.TryresizingArrayQueue.t" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +276,8 @@
       <workItem from="1543663591023" duration="19373000" />
       <workItem from="1543837805430" duration="9083000" />
       <workItem from="1543938361544" duration="6370000" />
-      <workItem from="1544015778616" duration="2323000" />
+      <workItem from="1544015778616" duration="3056000" />
+      <workItem from="1544108153628" duration="3808000" />
     </task>
     <servers />
   </component>
@@ -328,7 +314,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63623000" />
+    <option name="totallyTimeSpent" value="68164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -344,11 +330,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2647059" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -372,10 +358,39 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1992">
+          <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+          <folding>
+            <element signature="class#Node#0;class#DoubleNode#0" />
+            <element signature="method#pop#0;class#DoubleNode#0" />
+            <element signature="method#main#0;class#DoubleNode#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="336">
+            <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2088">
@@ -384,7 +399,6 @@
             <element signature="class#Node#0;class#DoubleNode#0" />
             <element signature="method#pop#0;class#DoubleNode#0" />
             <element signature="method#main#0;class#DoubleNode#0" />
-            <element signature="e#3086#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -403,9 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding>
-            <element signature="method#enqueue#0;class#LinkedQueue#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,18 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="class#Node#0;class#LinkedStack#0" />
-            <element signature="method#push#0;class#LinkedStack#0" />
-            <element signature="method#pop#0;class#LinkedStack#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_19/DeleteLastNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="413">
@@ -601,36 +600,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-          <folding>
-            <element signature="method#enqueue#0;class#LinkedQueue#0" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="336">
+            <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_1_3_31/DoubleNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-415">
-          <caret line="96" column="51" lean-forward="true" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
+        <state relative-caret-position="24">
+          <caret line="96" column="51" selection-start-line="96" selection-start-column="51" selection-end-line="96" selection-end-column="51" />
           <folding>
             <element signature="class#Node#0;class#DoubleNode#0" />
             <element signature="method#pop#0;class#DoubleNode#0" />
             <element signature="method#main#0;class#DoubleNode#0" />
-            <element signature="e#3086#3095#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="264">
-            <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/队列/LinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="50" column="12" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/栈/LinkedStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="class#Node#0;class#LinkedStack#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/Steque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="71" column="31" lean-forward="true" selection-start-line="71" selection-start-column="31" selection-end-line="71" selection-end-column="31" />
+          <folding>
+            <element signature="e#296#297#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#1000#1008#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
