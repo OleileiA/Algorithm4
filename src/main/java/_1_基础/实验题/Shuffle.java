@@ -8,7 +8,7 @@ public class Shuffle {
         int i;
         T temp;
         while (len > 0) {
-            i = (int) Math.floor(Math.random() * len--);// 任取数组范围内的一个index
+            i = (int) Math.floor(Math.random() * len--); // 任取数组范围内的一个index
             temp = arr[i];
             arr[i] = arr[len]; // 和最后一个交换
             arr[len] = temp;
