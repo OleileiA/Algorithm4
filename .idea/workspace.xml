@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/实验题/GenerallizedQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/实验题/RingBuffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/实验题/RingBuffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/实验题/RingBuffer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,25 +18,18 @@
       <file leaf-file-name="RingBuffer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/RingBuffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+            <state relative-caret-position="254">
+              <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
               <folding>
-                <element signature="e#485#486#0" expanded="true" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResizingArrayDeque.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/ResizingArrayDeque.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="45" selection-start-line="45" selection-end-line="63" selection-end-column="5" />
-              <folding>
-                <element signature="method#main#0;class#ResizingArrayDeque#0" />
+                <element signature="e#536#537#0" expanded="true" />
+                <element signature="e#580#581#0" expanded="true" />
+                <element signature="e#724#725#0" expanded="true" />
+                <element signature="e#753#754#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#802#803#0" expanded="true" />
+                <element signature="method#clear#0;class#RingBuffer#0" />
+                <element signature="method#getAll#0;class#RingBuffer#0" />
+                <element signature="e#1480#1489#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,17 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Josephus">
-    <configuration name="Deque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_基础.实验题.Deque" />
-      <module name="算法4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1_基础.实验题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.RingBuffer">
     <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_基础.实验题.Josephus" />
       <module name="算法4" />
@@ -248,20 +229,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="RingBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础.实验题.RingBuffer" />
+      <module name="算法4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_1_基础.实验题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
-      <item itemvalue="Application.Deque" />
       <item itemvalue="Application.ResizingArrayDeque" />
       <item itemvalue="Application.RandomBag" />
       <item itemvalue="Application.RandomQueue" />
       <item itemvalue="Application.Josephus" />
+      <item itemvalue="Application.RingBuffer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RingBuffer" />
         <item itemvalue="Application.Josephus" />
         <item itemvalue="Application.RandomQueue" />
         <item itemvalue="Application.RandomBag" />
         <item itemvalue="Application.ResizingArrayDeque" />
-        <item itemvalue="Application.Deque" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +280,7 @@
       <workItem from="1544450219624" duration="4548000" />
       <workItem from="1544860224220" duration="13164000" />
       <workItem from="1545223658331" duration="7270000" />
-      <workItem from="1546180848122" duration="5525000" />
+      <workItem from="1546180848122" duration="9051000" />
     </task>
     <servers />
   </component>
@@ -326,7 +317,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99745000" />
+    <option name="totallyTimeSpent" value="103271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -334,6 +325,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.328877" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -341,11 +333,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.2647059" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -359,7 +351,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.328877" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -697,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/GenerallizedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/_139/completeTheString.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -755,15 +739,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/GenerallizedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/RingBuffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        <state relative-caret-position="254">
+          <caret line="94" column="46" selection-start-line="94" selection-start-column="46" selection-end-line="94" selection-end-column="46" />
           <folding>
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#514#515#0" expanded="true" />
-            <element signature="e#543#544#0" expanded="true" />
-            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#724#725#0" expanded="true" />
+            <element signature="e#753#754#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="method#clear#0;class#RingBuffer#0" />
+            <element signature="method#getAll#0;class#RingBuffer#0" />
+            <element signature="e#1480#1489#0" expanded="true" />
           </folding>
         </state>
       </provider>
