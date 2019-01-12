@@ -1,4 +1,4 @@
-package _1_基础._1_3_29;
+package _1_基础.环形队列;
 
 /*
 * 利用环形链表实现队列
@@ -7,9 +7,6 @@ package _1_基础._1_3_29;
 *
 */
 
-
-import javax.swing.plaf.PanelUI;
-import java.util.Iterator;
 
 public class CircleQueue<Item> {
 
