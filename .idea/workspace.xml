@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickFind.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickUnion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,24 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalTime_quickFind.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CalTime_quickFind.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickFind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+            <state relative-caret-position="81">
+              <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UF.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF.java">
+      <file leaf-file-name="CalTime_quickUnion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickUnion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            <state relative-caret-position="540">
+              <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UF2.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="627">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding>
-                <element signature="method#UF#0;class#UF#0" />
-                <element signature="e#514#515#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
+                <element signature="method#UF2#0;class#UF2#0" />
+                <element signature="method#union#0;class#UF2#0" />
               </folding>
             </state>
           </provider>
@@ -113,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickFind.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickUnion.java" />
       </list>
     </option>
   </component>
@@ -125,7 +134,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
@@ -136,9 +145,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,6 +201,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -316,7 +325,8 @@
       <workItem from="1547602325230" duration="740000" />
       <workItem from="1547821447135" duration="2658000" />
       <workItem from="1547975961057" duration="982000" />
-      <workItem from="1548079917884" duration="3501000" />
+      <workItem from="1548079917884" duration="3691000" />
+      <workItem from="1548170413561" duration="1560000" />
     </task>
     <servers />
   </component>
@@ -353,7 +363,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132215000" />
+    <option name="totallyTimeSpent" value="133965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -367,8 +377,8 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32865733" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.328877" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.19238476" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -378,8 +388,8 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973262" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.328877" />
@@ -401,7 +411,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/asd.html" />
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -722,18 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="18" lean-forward="true" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-          <folding>
-            <element signature="method#UF2#0;class#UF2#0" />
-            <element signature="method#find#0;class#UF2#0" />
-            <element signature="method#union#0;class#UF2#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
@@ -746,7 +743,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
+        <state relative-caret-position="945">
           <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
           <folding>
             <element signature="method#UF#0;class#UF#0" />
@@ -758,8 +755,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickFind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        <state relative-caret-position="81">
+          <caret line="3" selection-start-line="3" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="method#UF2#0;class#UF2#0" />
+            <element signature="method#union#0;class#UF2#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
         </state>
       </provider>
     </entry>
