@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d8ab8688-ddca-4dfa-9b24-3f7d21ee465e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/QuickFindUF.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/QuickUnionUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/提高题/PathCompression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,23 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="QuickUnionUF.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/QuickUnionUF.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="36" column="16" lean-forward="true" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
-              <folding>
-                <element signature="e#166#167#0" expanded="true" />
-                <element signature="e#193#194#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -55,10 +39,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/提高题/PathCompression.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/栈/FixedCapacityStackOfStrings.java" />
@@ -103,12 +89,13 @@
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/实验题/DequeDoubleStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/实验题/StackImplQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF2.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickFind.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickUnion.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/QuickFindUF.java" />
         <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/QuickUnionUF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/提高题/PathCompression.java" />
       </list>
     </option>
   </component>
@@ -121,7 +108,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="800" />
@@ -132,7 +119,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,13 +169,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="_1_基础" type="462c0819:PsiDirectoryNode" />
               <item name="union_find算法" type="462c0819:PsiDirectoryNode" />
-              <item name="练习" type="462c0819:PsiDirectoryNode" />
+              <item name="提高题" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -213,19 +200,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.QuickUnionUF">
+  <component name="RunManager" selected="Application.PathCompression">
     <configuration name="FileList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_1_基础.实验题.FileList" />
-      <module name="算法4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_1_基础.实验题.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_1_基础.实验题.Josephus" />
       <module name="算法4" />
       <extension name="coverage">
         <pattern>
@@ -240,6 +217,16 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_1_基础.实验题.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="PathCompression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_1_基础.union_find算法.提高题.PathCompression" />
+      <module name="算法4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_1_基础.union_find算法.提高题.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -265,19 +252,19 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.Josephus" />
       <item itemvalue="Application.RingBuffer" />
       <item itemvalue="Application.MoveToFront" />
       <item itemvalue="Application.FileList" />
       <item itemvalue="Application.QuickUnionUF" />
+      <item itemvalue="Application.PathCompression" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PathCompression" />
         <item itemvalue="Application.QuickUnionUF" />
         <item itemvalue="Application.FileList" />
         <item itemvalue="Application.MoveToFront" />
         <item itemvalue="Application.RingBuffer" />
-        <item itemvalue="Application.Josephus" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +301,8 @@
       <workItem from="1547975961057" duration="982000" />
       <workItem from="1548079917884" duration="3691000" />
       <workItem from="1548170413561" duration="1867000" />
-      <workItem from="1548257575728" duration="2272000" />
+      <workItem from="1548257575728" duration="2416000" />
+      <workItem from="1548346466286" duration="3359000" />
     </task>
     <servers />
   </component>
@@ -351,11 +339,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136544000" />
+    <option name="totallyTimeSpent" value="140047000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -368,10 +355,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32865733" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.19238476" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45891783" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21785714" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16547619" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -399,13 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/实验题/RandomQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Scanner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="143">
@@ -705,16 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="method#WeightedQuickUnionUF#0;class#WeightedQuickUnionUF#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/练习/CalTime_quickUnion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
@@ -749,8 +719,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/UF2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+        <state relative-caret-position="627">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -764,6 +734,20 @@
             <element signature="e#491#492#0" expanded="true" />
             <element signature="e#532#533#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/提高题/PathCompression.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="68" column="36" lean-forward="true" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_1_基础/union_find算法/WeightedQuickUnionUF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
