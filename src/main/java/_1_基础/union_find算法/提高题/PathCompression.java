@@ -1,6 +1,6 @@
 package _1_基础.union_find算法.提高题;
 
-// 实现路径压缩的quick-union算法
+// 实现路径压缩的加权quick-union算法
 
 /*
 * 实现思路：
