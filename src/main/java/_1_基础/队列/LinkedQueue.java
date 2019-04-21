@@ -27,7 +27,7 @@ public class LinkedQueue<Item> {
         return N == 0;
     }
 
-    public int size () {
+    public int size() {
         return N;
     }
 

@@ -25,29 +25,20 @@ public class LinkedBag<Item> implements Iterable<Item>{
         first.next = oldFirst;
     }
 
-    //实现遍历器：
-
+    // 实现遍历器：
     public Iterator<Item> iterator() {
         return new ListIterator();
     }
-
     private class ListIterator implements Iterator<Item> {
-
         private Node current = first;
-
         public boolean hasNext() {
             return current != null;
         }
-
         public Item next() {
             Item item = current.item;
             current = current.next;
             return item;
         }
-
-        public void remove() {
-
-        }
+        public void remove() { }
     }
-
 }

@@ -18,7 +18,8 @@ public class Insertion {
     public static void sort(Comparable[] a) {
         int N = a.length;
         for (int i = 1; i < N; i++) {
-            for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) { // 因为昨天的索引是有序的，所以只需要交换到不小于昨天的元素即可
+            // 因为左边的索引是有序的，所以只需要交换到不小于昨天的元素即可
+            for (int j = i; j > 0 && less(a[j], a[j - 1]); j--) {
                 exch(a, j, j - 1);
             }
         }
