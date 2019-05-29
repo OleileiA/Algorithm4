@@ -11,10 +11,8 @@ import edu.princeton.cs.algs4.StdOut;
 public class Parenthese {
 
     public static void main(String[] args) {
-
         LinkedStack<Character> linkedStack = new LinkedStack<Character>();
         LinkedStack<Character> linkedStack2 = new LinkedStack<Character>();
-
         while (!StdIn.isEmpty()) {
             char c = StdIn.readChar();
             switch (c) {

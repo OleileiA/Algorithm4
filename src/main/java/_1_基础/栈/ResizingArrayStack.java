@@ -57,22 +57,15 @@ public class ResizingArrayStack<Item> implements Iterable<Item> {
     public Iterator<Item> iterator() {
         return new ReverseArrayIterator();
     }
-
     // 实现一个遍历器提供给iterator返回，并且要确保可以后进先出。
     private class ReverseArrayIterator implements Iterator<Item> {
-
         private int i = N;
-
         public boolean hasNext() {
             return i > 0;
         }
-
         public Item next() {
             return a[--i];
         }
-
-        public void remove() {
-
-        }
+        public void remove() { }
     }
 }

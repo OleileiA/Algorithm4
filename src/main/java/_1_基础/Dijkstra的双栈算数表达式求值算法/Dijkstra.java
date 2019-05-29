@@ -3,6 +3,7 @@ package _1_基础.Dijkstra的双栈算数表达式求值算法;
 import _1_基础._1_3_12.Stack;
 import edu.princeton.cs.algs4.StdIn;
 
+// 其实是伪代码，Stdin.readString()直接会读取所有的缓存区内容
 public class Dijkstra {
     public static void main(String[] args) {
         Stack<String> ops = new Stack<String>();
@@ -10,7 +11,7 @@ public class Dijkstra {
         while (!StdIn.isEmpty()) {
             String s= StdIn.readString();
             System.out.println(s);
-            if (s.equals("("))                  ;
+            if (s.equals("("))                 ;
             else if (s.equals("+")) ops.push(s);
             else if (s.equals("-")) ops.push(s);
             else if (s.equals("*")) ops.push(s);

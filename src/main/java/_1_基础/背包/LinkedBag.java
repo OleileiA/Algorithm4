@@ -8,23 +8,17 @@ import java.util.Iterator;
 *   主要目的就是手机并且可以遍历元素。
 */
 public class LinkedBag<Item> implements Iterable<Item>{
-
-
     private class Node {
         Item item;
         Node next;
     }
-
     private Node first;
-
-
     public void add(Item item) {
         Node oldFirst = first;
         first = new Node();
         first.item = item;
         first.next = oldFirst;
     }
-
     // 实现遍历器：
     public Iterator<Item> iterator() {
         return new ListIterator();

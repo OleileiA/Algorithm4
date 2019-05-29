@@ -28,6 +28,10 @@ public class Stack<Item> implements Iterable<Item>{
         return N;
     }
 
+    public Item peek() {
+        return first.item;
+    }
+
     public void push(Item item) {
         Node oldFirst = first;
         first = new Node();
