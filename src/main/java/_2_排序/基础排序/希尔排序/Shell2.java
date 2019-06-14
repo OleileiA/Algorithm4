@@ -42,15 +42,21 @@ public class Shell2 {
 			arr[counter] = h;
 		}
 
+
+		int compareTimes = 0;
 		for (; counter > 0; counter--) {
-			int compareTimes = 0;
 			for (int i = arr[counter]; i < N; i++) {
 				for (int j = i; j>= arr[counter] && less(a[j], a[j - arr[counter]]); j -= arr[counter]) {
 					compareTimes++;
 					exch(a, j , j - arr[counter]);
 				}
 			}
-			System.out.println("长度" + N + "系数:" + compareTimes / N);
 		}
+		System.out.println("长度" + N + "系数:" + compareTimes);
+	}
+
+	public static void main(String[] args) {
+		Integer[] arr = {10, 8, 6, 4, 9, 7, 5, 3, 2, 1};
+		sort(arr);
 	}
 }
