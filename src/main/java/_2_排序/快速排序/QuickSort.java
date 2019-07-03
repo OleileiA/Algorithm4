@@ -1,5 +1,7 @@
 package _2_排序.快速排序;
 
+import edu.princeton.cs.algs4.Queue;
+import edu.princeton.cs.algs4.Quick;
 import edu.princeton.cs.algs4.StdRandom;
 
 public class QuickSort {
@@ -64,5 +66,11 @@ public class QuickSort {
 		}
 		exch(a, start, e); // 把分区点，放在正确的位置
 		return e; // e已经是分区点的下标
+	}
+
+	public static void main(String[] args) {
+		Comparable[] arr = { 3, 4, 1, 2, 6 ,5, 9, 8, 7 };
+		QuickSort.sort(arr, 0, arr.length - 1);
+		QuickSort.show(arr);
 	}
 }
